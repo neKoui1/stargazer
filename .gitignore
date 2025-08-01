@@ -1,0 +1,22 @@
+# 通用忽略
+.DS_Store
+*.log
+*.env
+.vscode/
+.idea/
+
+# 后端忽略
+backend/bin/
+backend/.env
+go.sum
+
+# 前端忽略
+web/node_modules/
+web/.env
+web/build/
+web/.eslintcache
+web/coverage/
+
+# Docker忽略
+docker-compose.yml
+.dockerignore
